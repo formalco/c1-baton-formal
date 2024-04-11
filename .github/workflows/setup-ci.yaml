@@ -3,6 +3,10 @@ on:
   push:
     paths:
       - cookiecutter.json
+      - trigger
+
+permissions: write-all
+      
 jobs:
   setup:
     name: Reinitialize repository
